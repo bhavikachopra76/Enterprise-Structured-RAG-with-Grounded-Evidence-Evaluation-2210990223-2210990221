@@ -1,0 +1,39 @@
+# ── Environment & credentials (never commit these) ───────────
+.env
+*.json.key
+*-cred.json
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Data & results (too large / generated at runtime) ─────────
+data/
+*.json
+!requirements.txt
+
+# ── IDE / editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS junk ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Generated docs ────────────────────────────────────────────
+*.docx
+
+# ── Node (for test.js report script) ──────────────────────────
+node_modules/
+package-lock.json
