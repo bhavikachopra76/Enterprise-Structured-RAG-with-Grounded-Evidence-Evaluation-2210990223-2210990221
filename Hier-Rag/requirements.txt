@@ -1,0 +1,20 @@
+# HierRAG dependencies
+# Install with: pip install -r requirements.txt
+
+# Gemini API (via Vertex AI)
+google-genai
+
+# Environment variables (.env file support)
+python-dotenv
+
+# HuggingFace datasets (QASPER loading)
+datasets
+
+# Sentence embeddings (sensitivity tester — cosine similarity between answers)
+sentence-transformers
+
+# Numerical computing (sensitivity aggregation, tier correlation)
+numpy
+
+# Progress bars
+tqdm
