@@ -5,7 +5,7 @@
 ### Type : Research Paper
 ### Bhavika Chopra - 2210990221
 ### Chaitanya Garg - 2210990233
-### Current Status : Prepared, Ready to Submit
+### Current Status : Submitted in conference
 
 A vectorless, LLM-guided retrieval pipeline for question answering over research papers. Instead of using embeddings to find relevant context, HierRAG builds a hierarchical document tree and uses Gemini to *navigate* it — picking the right sections before generating an answer.
 
