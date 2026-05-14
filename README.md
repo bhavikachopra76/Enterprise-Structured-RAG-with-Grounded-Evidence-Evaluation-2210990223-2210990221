@@ -117,14 +117,6 @@ GOOGLE_APPLICATION_CREDENTIALS=C:/path/to/your/service-account.json
 
 The `GOOGLE_APPLICATION_CREDENTIALS` path should point to your GCP service account JSON key file.
 
-### Verify Connectivity
-
-```bash
-python test_url.py
-```
-
-If this prints a response from Gemini, you're good to go.
-
 ---
 
 ## Usage
